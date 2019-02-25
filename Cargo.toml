@@ -1,0 +1,10 @@
+[package]
+name = "symbolicate"
+version = "0.1.0"
+authors = ["Damian Carrillo <dcarrillo@atlassian.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.32.0"
+regex = "1.1.0"
+ansi_term = "0.11.0"
