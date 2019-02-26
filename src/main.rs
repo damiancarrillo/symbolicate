@@ -30,11 +30,7 @@ fn main() -> Result<()> {
                 .short("a")
                 .long("app")
                 .takes_value(true)
-<<<<<<< HEAD
                 .help("The path to an application binary (eg. Some.app/Some)"),
-=======
-                .help("The path to an application binary (eg. Trello.app/Trello)"),
->>>>>>> 5c64fab... Producing a valid highlighted crash log
         )
         .get_matches();
 
